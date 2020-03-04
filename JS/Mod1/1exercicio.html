@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Curso Javascript</title>
+    </head>
+    <body>
+        <script>
+            function formaFrase(data) {
+                return ('O usuário mora em ' + data.cidade + ' / ' + data.uf + ', no bairro ' + data.bairro + ', na rua ' + data.rua + ' com nº ' + data.numero + '.');
+            };
+            var endereco = {
+                rua: "Rua dos pinheiros",
+                numero: 1293,
+                bairro: "Centro",
+                cidade: "São Paulo",
+                uf: "SP"
+                };
+            console.log(formaFrase(endereco));
+        </script>
+    </body>
+
+</html>
